@@ -6,11 +6,11 @@
  * to variables.
  * 
  * @author Sadie Rynestad, Troy Potvin, and Cortland Lizer
- * @version 12/5/2017
+ * @version 12/5/2016
  */
 public class CommandLineCalculator {
-    public Double answer;
-    public String calculatedAnswer;
+    private Double answer;
+    private String calculatedAnswer;
 
     /**
      * This method checks that if the String submitted is a valid option, then
@@ -140,9 +140,9 @@ public class CommandLineCalculator {
     }
 
     /**
-     * This method takes in the given subStrings that is between the two
-     * parentheses and sends it back through method and converts that answer to
-     * a String.
+     * This method takes in the given subStrings that is with the two
+     * parentheses it then removes the parentheses and sends it back through
+     * method calculator and converts that answer to a String to be returned.
      * 
      * @param str
      *            the string inside the parentheses
