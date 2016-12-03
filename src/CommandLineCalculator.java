@@ -20,9 +20,7 @@ public class CommandLineCalculator {
         // there is one “=”store
         // the variables and the equation
 
-        // -Save the variable as a String in a binary search tree
-
-        // -Save the corresponding String equation in a hash table
+        // -Save the variable and the answer to the corresponding equation in a hash table 
     }
 
     /**
