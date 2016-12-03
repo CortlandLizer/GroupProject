@@ -141,11 +141,10 @@ public class CommandLineCalculator {
      * 
      * @param str
      *            the string inside the parentheses
-     * @return strPar value of the substring converted back to a string 
+     * @return strPar value of the substring converted back to a string
      */
     private String parentheses(String str) {
         String strPar = "";
-        
 
         return strPar;
     }
