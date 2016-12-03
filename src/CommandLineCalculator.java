@@ -9,8 +9,8 @@
  * @version 12/5/2017
  */
 public class CommandLineCalculator {
-    private Double answer;
-    private String calculatedAnswer;
+    public Double answer;
+    public String calculatedAnswer;
 
     /**
      * This method checks that if the String submitted is a valid option, then
@@ -29,7 +29,7 @@ public class CommandLineCalculator {
      */
     public String calculator(String str) {
 
-        // calls the private method storeVariable return “variable stored”
+        // calls the public method storeVariable return “variable stored”
 
         // replace all variable with numbers using call getVariable - look in
         // string for the operators and do the operations in pairs calling the
@@ -48,7 +48,7 @@ public class CommandLineCalculator {
      * @param str
      *            the string inputed by the user
      */
-    private void storeVariable(String str) {
+    public void storeVariable(String str) {
         // -look in string for “=” to separate variables from the equations. If
         // there is only one “=”, store the variables and the solved equation
 
@@ -68,7 +68,7 @@ public class CommandLineCalculator {
      *         table
      */
 
-    private String getVariable(String str) {
+    public String getVariable(String str) {
         String getVar = "";
 
         return getVar;
@@ -83,7 +83,7 @@ public class CommandLineCalculator {
      *            the number that you will subtract from x
      * @return answer the value of (x-y)
      */
-    private double subtraction(String x, String y) {
+    public double subtraction(String x, String y) {
         // - convert strings to doubles and perform the operation for
         // subtraction
 
@@ -100,7 +100,7 @@ public class CommandLineCalculator {
      *            the second number to be added
      * @return answer of the first number added to the second number (x+y)
      */
-    private double addition(String x, String y) {
+    public double addition(String x, String y) {
         // - convert strings to doubles and perform the operation for addition
 
         return answer;
@@ -116,7 +116,7 @@ public class CommandLineCalculator {
      *            the number that you are dividing by
      * @return answer the first number divided by the second number (x/y)
      */
-    private double division(String x, String y) {
+    public double division(String x, String y) {
         // - convert strings to doubles and perform the operation for division
 
         return answer;
@@ -132,7 +132,7 @@ public class CommandLineCalculator {
      *            the second number to be multiplied
      * @return answer the first number multiplied by the second number (x/y)
      */
-    private double multiplication(String x, String y) {
+    public double multiplication(String x, String y) {
         // - convert strings to doubles and perform the operation for
         // multiplication
 
@@ -148,7 +148,7 @@ public class CommandLineCalculator {
      *            the string inside the parentheses
      * @return strPar value of the substring converted back to a String
      */
-    private String parentheses(String str) {
+    public String parentheses(String str) {
         String strPar = "";
 
         return strPar;
