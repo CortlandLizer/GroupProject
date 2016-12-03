@@ -5,6 +5,34 @@
  */
 public class CommandLineCalculator {
     private Double answer;
+    private String calculatedAnswer;
+
+    /**
+     * this method checks that if the string submitted is a valid option, it
+     * checks if it is a variable that needs to be stored if it is it stores it
+     * and returns "variable stored" and if neither of those conditions are hit
+     * it uses all the other methods in this program to perform the required
+     * operations in the order of Parentheses, Multiplication, Division,
+     * Addition, Subtraction (PMDAS) and returns the final answer
+     * 
+     * @param str
+     *            the string inputed by the user
+     * @return calculatedAnswer the completed answer of the entered equation, if
+     *         it was a variable return "variable stored", if it was an invalid
+     *         entry return "invalid entry"
+     */
+    public String calculator(String str) {
+
+        /*
+         * - call the private method storeVariable return “variable stored”
+         * 
+         * -replace all variable with numbers using call getVariable - look in
+         * string for the operators and do the operations in pairs calling the
+         * methods in order, Parentheses Multiplication Division Addition
+         * Subtraction (PMDAS) example:
+         */
+        return calculatedAnswer;
+    }
 
     /**
      * this method checks if the inputed method is a string is meant to be
@@ -20,7 +48,25 @@ public class CommandLineCalculator {
         // there is one “=”store
         // the variables and the equation
 
-        // -Save the variable and the answer to the corresponding equation in a hash table 
+        // -Save the variable and the answer to the corresponding equation in a
+        // hash table
+    }
+
+    /**
+     * this method takes the given string and returns the answer to that given
+     * variable, if the string is not a stored variable it returns "variable not
+     * found"
+     * 
+     * @param str
+     *            the string to be checked if it is a variable and then found in the hash table 
+     * @return getVar the variables corresponding answer that was in the has
+     *         table
+     */
+
+    private String getVariable(String str) {
+        String getVar = "";
+
+        return getVar;
     }
 
     /**
