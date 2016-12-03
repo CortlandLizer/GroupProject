@@ -58,7 +58,8 @@ public class CommandLineCalculator {
      * found"
      * 
      * @param str
-     *            the string to be checked if it is a variable and then found in the hash table 
+     *            the string to be checked if it is a variable and then found in
+     *            the hash table
      * @return getVar the variables corresponding answer that was in the has
      *         table
      */
@@ -132,6 +133,21 @@ public class CommandLineCalculator {
         // multiplication
 
         return answer;
+    }
+
+    /**
+     * takes in the given subStrings that is between the two parentheses and
+     * sends it back through method and converts that answer to a string
+     * 
+     * @param str
+     *            the string inside the parentheses
+     * @return strPar value of the substring converted back to a string 
+     */
+    private String parentheses(String str) {
+        String strPar = "";
+        
+
+        return strPar;
     }
 
 }
